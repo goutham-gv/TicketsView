@@ -1,0 +1,114 @@
+[
+  {
+    "ticketNumber": "CMMH0012007031001",
+    "timestamp": "2020-06-08T11:25:45",
+    "machine": {
+    "name": "CMMH001",
+    "family": {
+    "name": "Heckert",
+    "id": 1
+    },
+    "owner": null,
+    "id": 1
+    },
+    "rule": {
+    "name": "XTemp",
+    "machine": {
+    "name": "CMMH001",
+    "family": {
+    "name": "Heckert",
+    "id": 1
+    },
+    "owner": null,
+    "id": 1
+    },
+    "family": {
+    "name": "Heckert",
+    "id": 1
+    },
+    "conditions": [],
+    "predicate": "",
+    "owner": null,
+    "isDisabled": true,
+    "createdOn": "2020-06-12T17:01:04.486949",
+    "createdBy": "MachDatum",
+    "hasNewer": true,
+    "severity": 1,
+    "action": 0,
+    "id": 71
+    }
+  },
+  {
+    "rule": {
+    "name": "XTemp",
+    "machine": {
+    "name": "CMMH001",
+    "family": {
+    "name": "Heckert",
+    "id": 1
+    },
+    "owner": null,
+    "id": 1
+    },
+    "family": {
+    "name": "Heckert",
+    "id": 1
+    }
+  }
+},
+    {
+        "id": 1,
+        "name":"XTemperature against family average",
+        "machine_name": "CMMH001",
+        "family_name": "cmhu55",
+        "time": "2020-05-16T13:31:30.277Z",
+        "by": "Z123456"
+        
+      }, 
+      {
+        "id": 2,
+        "end": "2020-06-26T12:54:35.335Z",
+        "start": "2020-06-26T12:54:35.335Z",
+        "email": "gfrediani1@senate.gov",
+        "gender": "Male",
+        "ip_address": "229.179.4.212"
+      },
+      {
+        "id":3,
+        "age":"a day ago",
+        "age2":"16 day ago",
+        "employee":"Z123456",
+        "contentt":"what caused a anomaly"
+      },
+      {
+        "id":4,
+        "emp":"employee2 Ticket assingned to Z123456",
+        "num":"#TICK1",
+        "comp":"MACHDATUM"
+      },
+      {
+        "timestamp": "2020-06-28T10:39:30.8244402",
+        "employee": "Hemanand Ramasamy",
+        "content": "Ticket was reassigned to Senthilkumar Ramasamy",
+        "type": 1,
+        "replies": [],
+        "id": 2
+        },
+        {
+        "timestamp": "2020-07-07T20:41:54.3830558",
+        "employee": "Hemanand Ramasamy",
+        "content": " completed and closed the ticket",
+        "type": 1,
+        "replies": [],
+        "id": 146
+        },
+        {
+        "timestamp": "2020-07-07T20:42:51.918657",
+        "employee": "Hemanand Ramasamy",
+        "content": " completed and closed the ticket",
+        "type": 1,
+        "replies": [],
+        "id": 147
+        }
+
+]

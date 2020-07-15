@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+}
+
+.container {
+	height: auto;
+	padding: 32px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	overflow: auto;
+	width: 100%;
+	background-color: #f8f9fa;
+}
+.title {
+	font-size: 21px;
+	font-weight: 400;
+	display: flex;
+	justify-content: space-between;
+}
+.subHeader {
+	margin-top: 8px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	color: rgba(0, 0, 0, 0.55);
+	font-size: 14px;
+}
+.pill {
+	width: 77px;
+	height: 20px;
+	border-radius: 50px;
+	border: 1px solid transparent;
+	white-space: nowrap;
+	align-items: center;
+	display: flex;
+	font-size: 0.75rem;
+	background-color: rgba(0, 0, 0, 0.06);
+	margin-right: 6px;
+}
+
+.pillText {
+	padding: 5px;
+	color: white;
+}
+.topName {
+	background-color: inherit;
+	margin-left: 7px;
+	margin-right: 7px;
+	display: flex;
+
+	align-items: center;
+}
+.active {
+	background-color: blue;
+}
+
+.closed {
+	background-color: rgb(85, 163, 98);
+}
+.topName {
+	background-color: inherit;
+	margin-left: 7px;
+	margin-right: 7px;
+	display: flex;
+
+	align-items: center;
+}
+.para > p {
+	font-size: 14px;
+}
+.content {
+	display: flex;
+	flex-direction: column;
+	flex: 1 1 auto;
+	box-sizing: border-box;
+	padding-top: 16px;
+	position: relative;
+}
+.logsContainer {
+	display: flex;
+	flex-direction: row;
+}
+
+.iconLine {
+	border-collapse: separate;
+	border-left: 1px solid rgba(218, 218, 218, 1);
+	flex-grow: 1;
+}
+.location {
+	color: #dadada;
+	font-size: 23px;
+}
+.logIcon {
+	display: flex;
+	flex-direction: column;
+	color: rgba(218, 218, 218, 1);
+	align-items: center;
+}
+.cellContainer {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: row;
+	overflow: hidden;
+}
+
+.cellContent {
+	padding: 0px 4px 16px 8px;
+	flex-grow: 1;
+}
+.commentHeader {
+	margin-bottom: 8px;
+	flex-grow: 1;
+	align-items: center;
+}
+.commentContainer {
+	padding: 12px 20px 16px 20px;
+	display: flex;
+}
+.commentHeaderTwo {
+	display: flex;
+	justify-content: space-between;
+}
+.commentHeaderTwo > div {
+	flex: 1;
+}
